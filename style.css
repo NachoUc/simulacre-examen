@@ -1,0 +1,80 @@
+body{
+    background-color: beige;
+}
+.smr div img{
+    margin-left: 20%;
+}
+.smr div{
+    background-color: pink;
+}
+
+.smr div p {
+    margin-left: 20%;
+    background-color: pink;
+}
+.title a{
+    color: orange;
+    text-decoration: underline blue;
+    font-weight: bold;
+    height: 25%;
+    font-size: x-large;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    text-align: center;
+}
+
+
+footer div{
+    text-align: center;
+    background-color: yellow;
+    color: blue;
+}
+
+.nombre{
+    color: red;
+}
+
+
+h1.horario{
+    color: blue;
+}
+
+
+table{
+    border: 1px black solid;
+    width: 50%;
+}
+
+th, td{
+    border: black 1px solid;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dam div{
+    background-color: gray;
+}
+.dam div img{
+    margin-left: 40%;
+}
+.dam div p a{
+    margin-left: 40%;
+}
+
+
+.asir div{
+    background-color: aqua;
+}
+.asir div img{
+    margin-left: 65%;
+}
+.asir div p a{
+    margin-left: 65%;
+}
+

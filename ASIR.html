@@ -1,0 +1,42 @@
+<!-- Nacho Uceda 19/02/2025 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ejercicio-extraordinaria">
+    <meta name="keywords" content="Ejercicio-extraordinaria">
+    <meta name="author" content="Nacho Uceda">
+    <meta name="robots" content="index, follow">
+    <title>Asir</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function funcion_apellido(){
+            var apellido = document.getElementById("Apellido").value;
+            var nombre = document.getElementById("Nombre").value;
+            alert('Bienvenido ' + Nombre + ' ' + Apellido + ', te vas a graduar de ASIR');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <p class="title"><a href="https://portal.edu.gva.es/ieselgrao/?page_id=690&lang=es">IES El Grao</a></p>
+    </header>
+        <form action="ejemplo.php" method="get">
+         <p>Nombre: <input type="text" name="Nombre" id="Nombre" size="40"></p>
+            <p>Apellido: <input type="text" name="Apellido" id="Apellido" size="40" onblur="funcion_apellido()"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+         <p>
+          <input type="submit" value="Enviar">
+             <input type="reset" value="Borrar">
+        </p>
+        </form>
+    <footer>
+        <div>
+            <hr>
+        <p>Web desarrollada per <span class="nombre">Nacho Uceda</span></p>
+        <hr>
+    </div>
+    </footer>
+</body>
+</html>
